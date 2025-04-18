@@ -3,53 +3,62 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MySenza 1 - Fragrance</title>
+  <title>MySenza 1</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #fffdf7;
+      background-color: #fff;
       color: #333;
       margin: 0;
       padding: 0;
+    }
+    header {
+      background-color: #f2f2f2;
+      padding: 1em;
       text-align: center;
     }
-    .container {
+    header img {
+      height: 120px;
+    }
+    main {
       max-width: 600px;
       margin: 2em auto;
       padding: 1em;
+      text-align: center;
     }
-    .logo {
-      width: 140px;
-      margin-bottom: 1em;
-    }
-    h1 {
-      color: #8b5e3c;
-      font-size: 1.8em;
-    }
-    p {
+    .buttons a {
+      display: inline-block;
+      margin: 1em;
+      padding: 1em 2em;
+      background-color: #007b5f;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
       font-size: 1.1em;
-      line-height: 1.6em;
     }
-    .qr {
+    .image {
       margin-top: 2em;
     }
-    .qr img {
-      width: 160px;
+    .image img {
+      max-width: 100%;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <img src="logo.png" alt="Logo MySenza" class="logo" />
-    <h1>MySenza 1 - Fragrance</h1>
-    <p>Un progetto di bellezza, benessere e ispirazione. Questa pagina è un esempio di presentazione pensata per aziende, negozi, studi, comunità.</p>
-    <p>Se sei interessato a ricevere la tua versione personalizzata, contattaci subito!</p>
-    <div class="qr">
-      <p><strong>Scansiona il QR o clicca qui sotto per contattarci:</strong></p>
-      <a href="https://wa.me/393717771328" target="_blank">
-        <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://wa.me/393717771328&size=160x160" alt="QR Contatto WhatsApp" />
-      </a>
+  <header>
+    <img src="logo.png" alt="Logo MySenza 1" />
+  </header>
+  <main>
+    <h1>Contatta MySenza</h1>
+    <p>Scegli come contattarci o inviarci un ordine. Clicca su uno dei pulsanti qui sotto:</p>
+    <div class="buttons">
+      <a href="https://wa.me/393717771328" target="_blank">Contattaci su WhatsApp</a>
+      <a href="mailto:mysenza1@gmail.com">Scrivici via Email</a>
     </div>
-  </div>
+    <div class="image">
+      <img src="immagine.jpg" alt="Rappresentazione Visiva" />
+    </div>
+  </main>
 </body>
 </html>
